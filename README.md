@@ -1,4 +1,4 @@
-# Maju Bareng AI
+# Hacktiv8 Maju Bareng AI
 ## AI for IT Developer (Batch 13)
 
 This is a simple project from *Maju Bareng AI - AI for IT Developer from Hacktiv8* demonstrating how to use **Gemini API** (Flash 2.5 model) in back-end only with support for:
@@ -52,7 +52,7 @@ app.post('/generate-text', async (req, res) => {
 });
 ```
 
-### 2. Generate from Image(s)
+### 2. Generate from Image(s) (Same like for Document(s) and Audio(s))
 ```javascript
 app.post('/generate-from-image', upload.array('images', 5), async (req, res) => {
     try {
@@ -81,7 +81,7 @@ app.post('/generate-from-image', upload.array('images', 5), async (req, res) => 
 })
 ```
 
-## How to Use?
+## 📝 How to Use?
 Since we only playing with the back-end, so we will be using Postman to check the back-end locally, steps you need to do:
 - Open Postman
 - Set to POST
@@ -101,4 +101,4 @@ Since we only playing with the back-end, so we will be using Postman to check th
 ## 📌 Notes
 - Ensure your Gemini API key is properly set in the `.env` file.
   
-##### So far i'm having fun too doing the submission, the mentor is energetic and easy to understand too, i'm loving it.
+###### So far i'm having fun too doing the submission, the mentor is energetic and easy to understand too, i'm loving it.
